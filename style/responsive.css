@@ -1,0 +1,19 @@
+/* no máximo este tamanho, ou seja, deste tamanho para baixo, fique nesta formatação */
+@media screen and (max-width:766px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 250px;
+    }
+}
+
+/* deste tamanho para cima, tenha esta formatação */
+@media screen and (min-width:980px){
+    .descricao{
+        width: 70%;
+    }
+}
